@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login </title>
+    <style>
+        body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+    padding: 0;
+}
+
+form {
+    max-width: 400px;
+    margin: 0 auto;
+}
+
+
+h1 {
+    text-align: center;
+    color: #fff;
+}
+
+input[type="email"],
+input[type="password"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+input[type="submit"] {
+    background-color: black;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+input[type="submit"]:hover {
+    background-color: black;
+}
+
+body {
+    background-color: black;
+}
+
+form {
+    background-color: #fff;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+   padding: 20px;
+}     
+</style>
+</head>
+<body>
+    <h1>Login Form</h1>
+    <form method="GET" action="/loginsubmit">
+        Email
+        <input type="Email" name="Email"><br>
+        Password:
+        <input type="Password" name="Password"><br>
+        <input type="submit">
+    </form>
+</body>
+</html>
